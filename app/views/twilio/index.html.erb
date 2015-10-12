@@ -1,0 +1,13 @@
+<h1> welcome</h1>
+
+<h4> Enter your number </h4>
+
+    <%= form_tag('/send_sms', method: 'POST') do %>
+
+    <input type="text"  placeholder="enter number here" name="number">
+   <!-- <input type="text" placeholder="enter message here" name="message"> -->
+    <button type="submit">Submit</button>
+
+    
+    <% end %>
+
